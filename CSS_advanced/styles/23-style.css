@@ -548,13 +548,14 @@ h1, h2, h3, h4, h5, h6 {
   background-color: var(--color-black);
 }
 
+.footer-address {
+  color: var(--text-color);
+}
+
 .social-link {
   display: block;
 }
 
-.social-link svg {
+.social-link > svg {
   fill: var(--text-color);
-}
-.footer-address {
-  color: var(--text-color);
 }
